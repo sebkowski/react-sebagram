@@ -1,0 +1,11 @@
+.popup-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40vh;
+  width: 40vh;
+  background: gray;
+  z-index: 9;
+  transition: 1s;
+}
