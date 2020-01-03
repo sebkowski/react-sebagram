@@ -73,6 +73,8 @@ const UploadPage = () => {
             /> */}
 
             <input
+              accept="image/*"
+              capture
               style={{ width: "0%" }}
               type="file"
               className="custom-file-input"
