@@ -1,16 +1,5 @@
 import React, { useState } from "react";
-import {
-  Button,
-  Form,
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  FormGroup,
-  CustomInput
-} from "react-bootstrap";
+import { Button, Form, Card, FormGroup } from "react-bootstrap";
 import axios from "axios";
 import { toast } from "react-toastify";
 
@@ -98,7 +87,7 @@ const UploadPage = () => {
         </Form>
         <div className="card">
           {previewImage ? (
-            <img src={previewImage} width="50%" height="50%" />
+            <img src={previewImage} alt="previewimg" width="50%" height="50%" />
           ) : (
             <h3 className="text-center">
               {message ? message : "Live Preview"}
